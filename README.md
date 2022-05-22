@@ -37,3 +37,8 @@ conda install -c conda-forge htop
 * Cv2
 
 ### 1.4 Flow
+
+### 1.5 Expand
+* API
+* Docker
+* Microservices
