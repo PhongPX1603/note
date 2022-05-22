@@ -9,7 +9,7 @@
 * Install Ubuntu 22.04
 
 ### 1.2 Install packages
-* SSH: Private key SSH, remote SSH, remote server (237, 238)
+* SSH: Private key SSH, Public key SSH, remote SSH, remote server (237, 238)
 * GPU: v100 tesla 32GB (server), local
 * Install basic packages
 * [Conda environment](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
