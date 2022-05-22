@@ -36,7 +36,7 @@ conda install -c conda-forge htop
 * Shapely
 * Cv2
 
-### 1.4 Flow
+### 1.4 [Flow](https://docs.google.com/document/d/1zAiTrEINrVP7vnkV3pH_mM4A7NrD1N0zi-KAq0fXL0c/edit#heading=h.hzm7uijj1sgr)
 
 ### 1.5 Expand
 * API
