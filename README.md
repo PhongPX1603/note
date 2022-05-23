@@ -1,4 +1,8 @@
+```bash
+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
+```
 # note
+
 
 ## 1. Setup working space
 ### 1.1 Install Operation System (OS)
