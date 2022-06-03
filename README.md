@@ -1,5 +1,5 @@
 ```bash
-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
+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
 ```
 # note
 
