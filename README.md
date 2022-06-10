@@ -49,6 +49,12 @@ conda install -c conda-forge htop
 ```
 
 * remote tool: teamviewer, anydesk
+* copy file
+```
+scp -r folder_dir_private_computer/ ocr@10.240.142.237:/folder_dir_server_computer
+scp file_dir_private_computer/ ocr@10.240.142.237:/folder_dir_server_computer
+
+```
 
 ### 1.3 Common Libraries
 * Shapely
