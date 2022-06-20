@@ -19,14 +19,17 @@ Create SSH Key (Private/Public)
 ssh-keygen -t rsa
 
 To take Private Key
-~/.ssh/id_rsa
+cat ~/.ssh/id_rsa
 
 To take Public Key
-~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub
 
 Logging in server:
 ssh ocr@10.204.142.237
 
+copy file from local to server
+scp -r (folder_dir) ocr@10.240.142.237:/folder_dir_server_computer
+scp (file_path) ocr@10.240.142.237:/folder_dir_server_computer
 ```
 * GPU: v100 tesla 32GB (server), local
 * Install basic packages
@@ -49,11 +52,6 @@ conda install -c conda-forge htop
 ```
 
 * remote tool: teamviewer, anydesk
-* copy file
-```
-scp -r folder_dir_private_computer/ ocr@10.240.142.237:/folder_dir_server_computer
-scp file_dir_private_computer/ ocr@10.240.142.237:/folder_dir_server_computer
-
 ```
 
 ### 1.3 Common Libraries
