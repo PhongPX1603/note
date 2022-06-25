@@ -25,7 +25,7 @@ To take Public Key
 cat ~/.ssh/id_rsa.pub
 
 Logging in server:
-ssh ocr@10.204.142.237
+ssh ocr@10.240.142.237
 
 copy file from local to server
 scp -r (folder_dir) ocr@10.240.142.237:/folder_dir_server_computer
@@ -37,8 +37,17 @@ scp (file_path) ocr@10.240.142.237:/folder_dir_server_computer
 
      [How to install anaconda](https://docs.anaconda.com/anaconda/install/linux/)
 * [Tmux](https://tmuxcheatsheet.com/)
+- install
 ```
 conda install -c conda-forge tmux
+```
+- create tmux session
+```
+tmux new -s <mysession>
+```
+- enter tmux session
+```
+tmux a -t <mysession>
 ```
 * Htop
 ```
