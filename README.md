@@ -37,16 +37,14 @@ scp (file_path) ocr@10.240.142.237:/folder_dir_server_computer
 
      [How to install anaconda](https://docs.anaconda.com/anaconda/install/linux/)
 * [Tmux](https://tmuxcheatsheet.com/)
-- install
 ```
+- Install
 conda install -c conda-forge tmux
-```
-- create tmux session
-```
+
+- Create tmux session
 tmux new -s <mysession>
-```
-- enter tmux session
-```
+
+- Enter tmux session
 tmux a -t <mysession>
 ```
 * Htop
@@ -61,7 +59,7 @@ conda install -c conda-forge htop
 ```
 
 * remote tool: teamviewer, anydesk
-```
+
 
 ### 1.3 Common Libraries
 * Shapely
